@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ramabhadra&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: content-box; */
+}
+
+body {
+    background-color: #fff;
+}
+
+
+/* header style */
+
+.top_header {
+    width: 100%;
+    position: relative;
+    height: auto;
+    /* background-color: #FFC200 !important; */
+}
+
+.social-icon {
+    font-size: 15pt;
+    color: #FFC200;
+    line-height: 100%;
+}
+
+
+/* .social-icon li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 15px;
+    /* float: left; */
+
+
+/* } */
+
+.menu li {
+    float: right;
+}
+
+.nav-menu .nav-item .nav-link {
+    color: white;
+    font-size: 15pt;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.nav-menu {
+    /*display: flex;
+    */
+    /* align-items: center; */
+    /*will-change: height;
+    */
+    /*position: fixed;
+    */
+    /*height: $header-height;
+    */
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    /*background-color: #fff;
+    */
+    /*transition: all 300ms ease;
+    */
+    transition: position 30s;
+    -webkit-transition: position 30s;
+    -moz-transition: position 30s;
+    -ms-transition: position 30s;
+    -o-transition: position 30s;
+}
+
+.nav-menu .nav-item .nav-link:hover {
+    margin-left: 15px;
+    color: #003049 !important;
+}
+
+.active-menu {
+    color: #003049 !important;
+}
+
+
+/* home content  */
+
+.text-titleHome {
+    font-family: 'RocknRoll One', sans-serif;
+    /* font-family: 'Bebas Neue', cursive; */
+    color: #fff;
+    font-size: 30pt;
+}
+
+.bnt-viewproduct {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 15pt;
+    color: #fff;
+    background-color: #003049;
+    transition: all 0.5s;
+}
+
+.bnt-viewproduct:hover {
+    color: #fff;
+    padding-left: 50px;
+    /* background-color: #FFC200; */
+}
+
+.home-content {
+    /* height: 800px; */
+    width: 100%;
+    position: relative;
+}
+
+.ceo-img {
+    background-image: url(../Img/ceo.png);
+    background-size: 100% auto;
+    /* background-position-x: 30px; */
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.product-content {
+    width: 100%;
+    /* height: 100px; */
+    /* background: #fff; */
+    /* bottom: 0; */
+}
+
+.product-content .col {
+    /* height: 300px; */
+    color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    background-color: #dfad0b;
+    cursor: pointer;
+}
+
+.product-content .col:hover {
+    background-color: #003049;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.active-product {
+    background-color: #003049 !important;
+}
+
+.text-show1 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 50pt;
+    color: #fff;
+}
+
+.text-show {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 15pt;
+    color: #fff;
+}
+
+
+/* work content */
+
+.work-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.work-img .col-md-4 {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    cursor: pointer;
+}
+
+.work-text {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 50pt;
+    color: #FFC200;
+}
+
+.work-subtext {
+    color: #ff009d;
+    font-size: 15pt;
+}
+
+.work-area {
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 194, 0, 0.3);
+    position: absolute;
+    top: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-img .col-md-4 img {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.work-img .col-md-4:hover .work-area {
+    width: 100%;
+}
+
+.text-work-content h2 {
+    color: #ff009d;
+    font-family: 'Anton', sans-serif;
+}
+
+.work-img .col-md-4:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+
+.bg-background {
+    background: rgb(0, 48, 73);
+    background: linear-gradient(-90deg, rgba(0, 48, 73, 1) 0%, rgba(2, 81, 122, 1) 35%, rgba(255, 194, 0, 1) 100%);
+}
+
+.bg-backgroundlight {
+    background-color: rgba(255, 194, 0, 0.3);
+}
+
+.footer {
+    width: 100%;
+    /* margin-top: -60px; */
+    position: relative;
+    z-index: -100;
+}
+
+.list-icon {
+    list-style-type: none;
+    display: flex;
+}
+
+.list-icon li {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px #ff009d;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.list-icon li:hover {
+    color: #003049;
+    margin-left: 20px;
+}
+
+.let-talk {
+    font-size: 30pt;
+    font-family: 'Ramabhadra', sans-serif;
+    text-transform: uppercase;
+}
+
+.let-talk-btn {
+    background: #fff;
+    color: #003049;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20pt;
+    transition: all 0.5s;
+}
+
+.let-talk-btn:hover {
+    background-color: #003049;
+    color: white !important;
+}
+
+.bottom-footer {
+    background-color: #dfad0b;
+}
+
+.tel {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+.enquiry {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    background-color: white;
+    height: 100%;
+    overflow: scroll;
+    height: 0%;
+}
+
+.enquiry label {
+    font-family: 'Ramabhadra', sans-serif;
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+
+.enquiry input {
+    border-radius: 0 !important;
+    font-size: 20pt;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.enquiry select {
+    border-radius: 0 !important;
+    font-size: 20pt;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.enquiry input:focus {
+    border-color: #ff009d;
+}
+
+.closebtn {
+    font-size: 30pt;
+    color: lightgray;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.closebtn :hover {
+    color: #ff009d;
+    transform: rotate(90g);
+    -webkit-transform: rotate(90g);
+    -moz-transform: rotate(90g);
+    -ms-transform: rotate(90g);
+    -o-transform: rotate(90g);
+    color: gray !important;
+}
+
+.btn-enq {
+    color: white;
+    padding: 10px;
+    font-size: 15pt;
+    background-color: #ff009d;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* service contain style sheet */
+
+.service-content {
+    width: 100%;
+    height: auto;
+    margin-bottom: -30px;
+    /* z-index: 100; */
+}
+
+.service-top-content {
+    width: 100%;
+    height: 400px;
+}
+
+.service-content-middle {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.footer-content-to-top {
+    margin-top: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-titleHome {
+        font-size: 15pt;
+    }
+}
